@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 11</title>
+        <script src="funciones_11.js"></script>
+        <img src="img/gato_1.jpg" id="gatos" height="150" width="280"/>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td>
+                    <button type="button" onclick="Serie1()">A1</button>
+                </td>
+                <td>
+                    A2
+                </td>
+                <td>
+                    <button type="button" onclick="Serie2()">A3</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    B1
+                </td>
+                <td>
+                    <button type="button" onclick="Serie3()">B2</button>
+                </td>
+                <td>
+                    B3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="Serie4()">C1</button>
+                </td>
+                <td>
+                    C2
+                </td>
+                <td>
+                    <button type="button" onclick="CambiarImagen()">C3</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <textarea name="txtRespuesta" id="resultado" cols="25" rows="3"></textarea>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <p>Ingrese un numero:</p>
+        <input id="num"><br>
+        <button type="button" onclick="ReverseInt()">Revertir</button>
+        <button type="button" onclick="SumaProducto()">SumaProducto</button><br>
+        <textarea id="resultado2"></textarea>
+    </body>
+</html>
