@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table {
+    margin: 0 auto;
+    background-color: rgb(215, 215, 215);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input, textarea {
+    text-align: center;
+    border-radius: 5px;
+    border: 0px;
+}
+
+button {
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    background-color: rgb(73, 118, 243);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+#integrantes {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.descripcion {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

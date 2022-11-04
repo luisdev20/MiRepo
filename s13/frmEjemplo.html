@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <script src="funciones.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Formularios -  Sesion 12</h2>
+    <table>
+        <tr>
+            <td>Numero</td>
+            <td>
+                <input id="txtNumero"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>Potencia</td>
+            <td>
+                <input id="txtPotencia"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="buttons" onclick="potencia()">Respuesta</button>
+            </td>
+            <td>
+                <textarea id="respuesta" cols="20" rows="2"></textarea>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+    </table> <br>
+
+    <table>
+        <tr>
+            <td>
+                <form method="post" action="frmPrueba.html">
+                    <button type="submit">Pagina de prueba</button>
+                </form>
+            </td>
+            <td>
+                <form method="post" action="formPrueba2.html">
+                    <button type="submit">Pagina de prueba 2</button>
+                </form>
+            </td>
+        </tr>
+    </table> <br>
+    <h3>PAGINA PRINCIPAL <a href="index.html">AQUI</a></h3>
+</body>
+</html>

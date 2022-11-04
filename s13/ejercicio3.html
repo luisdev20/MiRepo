@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <script src="funciones.js"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h2>Ejercicio 3</h2>
+    <div class="descripcion">
+        <p>Se tiene las notas finales de 4 cursos, con sus respectivos creditos, indicar el promedio ponderado del estudiante e indicar cual es su situación (Especial,Regular,Excelente)</p>
+    </div>
+    <table border="3">
+        <tr>
+            <th>CURSO</th>
+            <th>CRÉDITOS</th>
+            <th>NOTA</th>
+        </tr>
+        <tr>
+            <td>Matemática</td>
+            <td><input type="number" id="créditocurso01"></td>
+            <td><input type="number" id="notacurso01"></td>
+        </tr>
+        <tr>
+            <td>Física</td>
+            <td><input type="number" id="créditocurso02"></td>
+            <td><input type="number" id="notacurso02"></td>
+        </tr>
+        <tr>
+            <td>Química</td>
+            <td><input type="number" id="créditocurso03"></td>
+            <td><input type="number" id="notacurso03"></td>
+        </tr>
+        <tr>
+            <td>Programación</td>
+            <td><input type="number" id="créditocurso04"></td>
+            <td><input type="number" id="notacurso04"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td>
+                <button onclick="ejercicio3()">Calcular</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <textarea id="respuesta" style="WIDTH: 450px; HEIGHT: 30px"></textarea>
+            </td>
+        </tr>
+
+    </table><br>
+    <form method="post" action="index.html">
+        <button type="submit">INICIO</button>
+    </form>
+</body>
+</html>

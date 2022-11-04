@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 1</title>
+    <script src="funciones.js"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h2>Ejercicio 1</h2>
+    <div class="descripcion">
+        <p>Ingresar una cantidad en soles que solicitas por cajero, e indicar cuantos billetes y monedas puede proporcionar 50,20,10,5,1</p>
+    </div>
+    <table>
+        <tr>
+            <td>
+                Ingrese cantidad en soles: <input type="text" id="cantidad">
+            </td>
+            <td>
+                <button type="button" onclick="ejercicio1()">Solicitar</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <textarea id="resultado" cols="50" rows="5"></textarea>
+            </td>
+        </tr>
+    </table><br>
+    <form method="post" action="index.html">
+        <button type="submit">INICIO</button>
+    </form>
+</body>
+</html>
